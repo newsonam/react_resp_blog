@@ -1,0 +1,236 @@
+/* sectionone */
+.discover {
+    color: #000080;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.red {
+    color: red;
+}
+
+.section-first {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 3rem;
+
+}
+
+.section-first-left {
+    width: 32%;
+    padding: 0px 55px;
+}
+
+.truck-logo-image {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.explore-btn {
+    margin-top: 30px;
+}
+
+.pizza-image {
+       height: 500px;
+}
+
+/********************************* section two */
+.about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000080;
+}
+
+.section-second {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 10px 10px;
+    background-color: #F1F1F1;
+}
+
+.section-second-right {
+    margin-top: 45px;
+    width: 30%;
+    text-align: left;
+}
+
+.about-img {
+    height: 400px;
+}
+
+.read-btn {
+    margin-top: 20px;
+}
+
+/********************************* footer css */
+.footer-wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    background-color: #F1F1F1;
+    padding: 70px 0px;
+
+}
+
+.truck-image {
+    width: 10%;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+
+.contact {
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.address {
+    margin-bottom: 10px;
+    color: grey;
+    line-height: 0.6rem;
+}
+
+.email {
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.code {
+
+    color: grey;
+}
+
+.more-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.more {
+    font-weight: bold;
+}
+
+.about,
+.career,
+.product,
+.contactus {
+    color: grey;
+}
+
+.text-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.social-text {
+    font-weight: bold;
+}
+
+.icons-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.copyright {
+    margin-top: 90px;
+    color: grey;
+}
+
+/*************************************************** card-wrapper */
+.card-wrapper {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.latest {
+    color: #000080;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 0px 50px;
+    margin-bottom: 20px;
+}
+
+.food-card {
+
+    display: flex;
+    flex-basis: 33.3%;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+.food-title {
+    color: #000080;
+}
+
+
+/************************************* Mobile responsive with media queries */
+
+@media screen and (max-width: 600px) {
+    .section-first {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 1rem;
+        gap:50px;
+
+    }
+    .pizza-image{
+        max-width: 100%;
+    }
+    .discover{
+        font-size: 2.5rem;
+    }
+    .naturally-text{
+        font-size: 0.8rem;
+    }
+
+    .section-first-left {
+        width: 100%;
+        padding: 0px 55px;
+        text-align: center;
+    }
+
+    .truck-logo-image {
+        display: none;
+    }
+
+    .about-img {
+        display: none;
+    }
+    .about-para{
+        font-size: 0.7rem;
+    }
+
+    .section-second-right {
+        width: 100%;
+        text-align: center;
+        padding:50px 20px;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        background-color: #F1F1F1;
+        justify-content: center;
+        padding: 70px 40px;
+
+    }
+
+    .truck-image {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
